@@ -37,3 +37,5 @@ function findMatchingSue(lines) {
 }
 
 const auntSueNumber = findMatchingSue(input)
+
+console.log(`Aunt Sue is ${auntSueNumber}`);

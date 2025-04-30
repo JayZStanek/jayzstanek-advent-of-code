@@ -43,4 +43,4 @@ function isMatch(attributes) {
 const sues = input.split('\n').map(parseLine);
 const matchingSue = sues.find(sue => isMatch(sue.attributes));
 
-console.log(`Aunt Sue is ${matchingSue.num}`);
+console.log(`Real Aunt Sue is ${matchingSue.num}`);
